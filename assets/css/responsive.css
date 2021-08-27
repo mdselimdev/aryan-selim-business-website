@@ -1,0 +1,141 @@
+
+/* XX-Large devices (larger desktops) */
+
+
+/* Large devices (desktops, less than 1200px) */
+
+@media (max-width: 1199.98px) {
+	.slider-content h1 {
+		font-size: 50px;
+	}
+	.counter-word span {
+		font-size: 25px;
+	}
+	.counter-word h4 {
+		font-size: 17px;
+	}
+	.team-content h4 {
+		font-size: 20px;
+	}
+	.single-footer {
+		text-align: center;
+		margin-bottom: 28px;
+	}
+}
+
+
+/* Medium devices (tablets, less than 992px) */
+
+@media (max-width: 991.98px) {
+	.slider-content h1 {
+		font-size: 38px;
+	}
+	.about-content {
+		margin-bottom: 50px;
+	}
+	.counter-content {
+		padding: 45px 0;
+	}
+	.progress-section {
+		margin-top: 30px;
+	}
+	.team-social a {
+		font-size: 16px;
+		height: 30px;
+		width: 30px;
+		line-height: 30px;
+	}
+	.promo-video iframe {
+		width: 100%;
+		height: 268px;
+	}
+}
+
+
+/* Small devices (landscape phones, less than 768px) */
+
+@media (max-width: 767.98px) {
+	.slider-content h3 {
+		font-size: 25px;
+	}
+	.slider-content h1 {
+		font-size: 33px;
+	}
+	.slider-content p {
+		font-size: 15px;
+	}
+	.cmn-btn {
+		padding: 8px 27px;
+	}
+	.main-slider .owl-dots {
+		display: none;
+	}
+	.cmn-title::after {
+		display: none;
+	}
+	.cmn-title::before {
+		display: none;
+	}
+	.cmn-title-upper {
+		text-align: center !important;
+		margin-bottom: 20px;
+	}
+	.cmn-title-low {
+		text-align: center;
+	}
+	.top-header-left {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.top-header-right {
+		text-align: center;
+	}
+	.container,
+	.container-sm {
+		max-width: 100% !important;
+	}
+	.cta-left {
+		margin-bottom: 30px;
+	}
+	.footer-copy {
+		text-align: center;
+	}
+	.footer-social {
+		text-align: center !important;
+	}
+	.portfolio-top img {
+		margin-bottom: 40px;
+	}
+	.single-contact {
+		margin-bottom: 35px;
+	}
+}
+
+
+/* X-Small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+	.single-team {
+		margin-bottom: 30px;
+	}
+	.counter-content {
+		padding: 30px 0;
+	}
+	.cmn-title h4 {
+		font-size: 28px;
+	}
+	.cta-left {
+		margin-bottom: 22px;
+	}
+	.about-content h4 {
+		font-size: 26px;
+	}
+	.cta-left h4 {
+		font-size: 21px;
+	}
+	.portfolio-menu li {
+		display: block;
+		margin-bottom: 20px;
+	}
+}
+
